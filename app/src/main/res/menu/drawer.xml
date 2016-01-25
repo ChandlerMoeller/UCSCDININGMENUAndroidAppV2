@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_1">
+        <!--android:checkableBehavior="single">-->
+
+        <item
+            android:id="@+id/bycurrentmeal"
+            android:checked="false"
+            android:checkable="true"
+            android:icon="@drawable/ic_piazza"
+            android:title="@string/bycurrentmeal" />
+
+        <item
+            android:id="@+id/bydininghall"
+            android:checked="false"
+            android:checkable="true"
+            android:icon="@drawable/ic_piazza"
+            android:title="@string/bydininghall" />
+
+    </group>
+    <group
+        android:id="@+id/group_2">
+        <!--android:checkableBehavior="single">-->
+        <item
+            android:id="@+id/navigation_subheader"
+            android:title="Quick Links">
+            <menu
+                android:id="@+id/navigation_subheader2">
+
+                <item
+                    android:id="@+id/myucsc"
+                    android:checked="false"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_piazza"
+                    android:title="@string/myucsc" />
+
+                <item
+                    android:id="@+id/ecommons"
+                    android:checked="false"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_piazza"
+                    android:title="@string/ecommons" />
+
+                <item
+                    android:id="@+id/piazza"
+                    android:checked="false"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_piazza"
+                    android:title="@string/piazza" />
+            </menu>
+        </item>
+
+    </group>
+
+    <group
+        android:id="@+id/group_3">
+        <!--android:checkableBehavior="single">-->
+
+        <item
+            android:id="@+id/settings"
+            android:checked="false"
+            android:checkable="true"
+            android:icon="@drawable/ic_piazza"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/helpfeedback"
+            android:checked="false"
+            android:checkable="true"
+            android:icon="@drawable/ic_piazza"
+            android:title="@string/helpfeedback" />
+        <item
+            android:id="@+id/about"
+            android:checked="false"
+            android:checkable="true"
+            android:icon="@drawable/ic_piazza"
+            android:title="@string/about" />
+
+
+    </group>
+</menu>

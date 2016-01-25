@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Dining V2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    //Nav Drawer
+    <string name="openDrawer">Open navigation drawer</string>
+    <string name="closeDrawer">Close navigation drawer</string>
+
+    <string name="quicklinks">Quick Links</string>
+
+    <string name="bycurrentmeal">By meal</string>
+    <string name="bydininghall">By dining hall</string>
+    <string name="myucsc">myUCSC</string>
+    <string name="ecommons">eCommons</string>
+    <string name="piazza">Piazza</string>
+    <string name="settings">Settings</string>
+    <string name="helpfeedback">Help and feedback</string>
+    <string name="about">About</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
